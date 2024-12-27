@@ -57,7 +57,7 @@ This tool supports PDF and DOCX file formats for resumes and text or image forma
 Feel free to fork the repository and submit pull requests. If you have any suggestions or bug fixes, please create an issue and we’ll try to resolve it ASAP.
 
 # Future Enhancements
-I am currently working on further enhancing the NLP tasks in this project, including better keyword extraction algorithms, improved text matching techniques, and incorporating machine learning models for more accurate job-resume analysis.
+I am currently working on further enhancing the NLP tasks in this project, including better keyword extraction algorithms, improved text matching techniques and incorporating machine learning models for more accurate job-resume analysis.
 
 
 
