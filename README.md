@@ -30,7 +30,7 @@ This tool supports PDF and DOCX file formats for resumes and text or image forma
   Clone the Repository
    1. Clone the repositiory
 
-          git clone https://github.com/Saurabh-SR/automated-resume-reviewer.git
+          git clone https://github.com/Saurabh-SR/Resume_Reviewer-.git
 
    2. Install Dependencies
       Make sure you have Python 3.6+ installed. Then, install the necessary dependencies:
