@@ -5,37 +5,38 @@ The Automated Resume Reviewer is a tool designed to analyze resumes and match th
 This tool supports PDF and DOCX file formats for resumes, and text or image formats for job descriptions. The project uses spaCy for text processing, PyPDF2 for PDF handling, and Streamlit for building an interactive web application.
 
 # Tools Used
-Python: The primary programming language used for developing the application.
-spaCy: Used for natural language processing, including tokenization, lemmatization, and keyword extraction.
-PyPDF2: Used for extracting text from PDF resumes.
-python-docx: Used for extracting text from DOCX resumes.
-Streamlit: A framework to build an interactive UI for users to upload resumes and job descriptions.
-Tesseract OCR: Used for extracting text from images (screenshots) of job descriptions.
+* Python: The primary programming language used for developing the application.
+* spaCy: Used for natural language processing, including tokenization, lemmatization, and keyword extraction.
+* PyPDF2: Used for extracting text from PDF resumes.
+* python-docx: Used for extracting text from DOCX resumes.
+* Streamlit: A framework to build an interactive UI for users to upload resumes and job descriptions.
+* Tesseract OCR: Used for extracting text from images (screenshots) of job descriptions.
 
 # Key Features
-Resume Matching: The tool compares resumes against job descriptions and calculates a match score.
-Keyword Extraction: Extracts important keywords from both resumes and job descriptions.
-Flexible Input Options: Users can either paste job descriptions or upload screenshots.
-PDF and DOCX Support: Supports popular file formats for resumes (PDF and DOCX).
-Real-Time Results: Interactive web app built using Streamlit for seamless user experience.
+* Resume Matching: The tool compares resumes against job descriptions and calculates a match score.
+* Keyword Extraction: Extracts important keywords from both resumes and job descriptions.
+* Flexible Input Options: Users can either paste job descriptions or upload screenshots.
+* PDF and DOCX Support: Supports popular file formats for resumes (PDF and DOCX).
+* Real-Time Results: Interactive web app built using Streamlit for seamless user experience.
 
 # How It Works
-Resume Upload: Upload your resume in PDF or DOCX format.
-Job Description Input: Provide the job description by either pasting the text or uploading a screenshot of the job description.
-Text Processing: The uploaded resume and job description are processed using spaCy for keyword extraction.
-Matching & Scoring: The system calculates the match score based on the overlap of keywords between the resume and the job description.
-Results: The match score and matching/missing keywords are displayed in real time.
+* Resume Upload: Upload your resume in PDF or DOCX format.
+* Job Description Input: Provide the job description by either pasting the text or uploading a screenshot of the job description.
+* Text Processing: The uploaded resume and job description are processed using spaCy for keyword extraction.
+* Matching & Scoring: The system calculates the match score based on the overlap of keywords between the resume and the job description.
+* Results: The match score and matching/missing keywords are displayed in real time.
 
 # Installation
-Clone the Repository
+  Clone the Repository
+   1. Clone the repositiory
 
-git clone https://github.com/Saurabh-SR/automated-resume-reviewer.git
+          git clone https://github.com/Saurabh-SR/automated-resume-reviewer.git
 
-Install Dependencies
-Make sure you have Python 3.6+ installed. Then, install the necessary dependencies:
+   Install Dependencies
+      Make sure you have Python 3.6+ installed. Then, install the necessary dependencies:
 
-cd automated-resume-reviewer
-pip install -r requirements.txt
+       cd automated-resume-reviewer
+       pip install -r requirements.txt
 
 # Run the Application
 To start the application, run the following command in cmd or bash:
