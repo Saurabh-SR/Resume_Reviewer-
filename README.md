@@ -40,8 +40,8 @@ This tool supports PDF and DOCX file formats for resumes and text or image forma
 
 # Run the Application
   To start the application, run the following command in cmd or bash:
-
-         streamlit run resume_reviewer1.py
+  
+    streamlit run resume_reviewer1.py
 
   The app will open in your browser, allowing you to upload resumes and job descriptions.
 
