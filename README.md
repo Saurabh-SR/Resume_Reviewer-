@@ -6,7 +6,7 @@ This tool supports PDF and DOCX file formats for resumes and text or image forma
 
 # Tools Used
 * Python: The primary programming language used for developing the application.
-* spaCy: Used for natural language processing, including tokenization, lemmatization, and keyword extraction.
+* spaCy: Used for natural language processing, including tokenization, lemmatization and keyword extraction.
 * PyPDF2: Used for extracting text from PDF resumes.
 * python-docx: Used for extracting text from DOCX resumes.
 * Streamlit: A framework to build an interactive UI for users to upload resumes and job descriptions.
